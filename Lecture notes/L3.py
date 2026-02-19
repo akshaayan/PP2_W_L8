@@ -1,3 +1,6 @@
+abc = 10
+
+
 def calc_grades(d):
     res_dict = {}
     for i in d:
@@ -7,14 +10,14 @@ def calc_grades(d):
     return res_dict
 
 test_data = {"25B010101" : [100, 30, 15, 6, 0], "25B020202":[20, 30, 70 , 18, 100]}
-grades = calc_grades(test_data)
-print(grades)
+# grades = calc_grades(test_data)
+# print(grades)
 
 x = {"1" : 12, "2": 15, "3":20}
 res = sum(x.values())
-print(res)
+# print(res)
 # {ID : [x, c, v, v]} 
-print(type("str"))
+# print(type("str"))
 
 def addtwo (a, b):
     if isinstance(a, str) and isinstance(b, str):
@@ -23,7 +26,7 @@ def addtwo (a, b):
     else:
         print("Not suitable types")
         
-addtwo(12, 'string')
+# addtwo(12, 'string')
 
 def copmutepay(h, r):
     n_h = 40
@@ -33,13 +36,13 @@ def copmutepay(h, r):
         h = h - o_h
     return (o_h*r*2)+(h*r)
     
-print(copmutepay(42, 15000))
+# print(copmutepay(42, 15000))
 
 def print_numbers(a, b, **kwargs):
     for i in kwargs.values():
         print(i)
         
-print_numbers(1, 23, s=12, fr =1000)    
+# print_numbers(1, 23, s=12, fr =1000)    
 
 class Student:
     def __init__(self, name, id, major):
@@ -63,4 +66,4 @@ class Masterstudent(Student, Human):
         Student.__init__(self, name, id, major)
         Human.__init__(self, gender, age)
 ms = Masterstudent("Bob", "25B000001", "CS", 'male', 19)
-print(ms.age)
+# print(ms.age)
