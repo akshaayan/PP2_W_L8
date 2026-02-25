@@ -1,0 +1,8 @@
+X-Sieve: CMU Sieve 2.3
+X-DSPAM-Result: Innocent
+X-: Very Short
+X-Plane is behind schedule: two weeks
+X-DSPAM-Confidence: 0.06
+X-DSPAM-Confidence: 0.21
+X-DSPAM-Confidence: 0.934
+
