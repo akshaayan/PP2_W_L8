@@ -1,6 +1,6 @@
 import re
 
-hand = open('Lecture materials\mbox-short.txt')
+hand = open('Lecture notes\mbox-short.txt')
 for line in hand:
     line = line.rstrip()
     # x = re.search('', line)
